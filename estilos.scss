@@ -1,0 +1,26 @@
+@import "description";
+@import "logo";
+@import "contact";
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: url("images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    main{
+        width: 90%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:850px) {
+    body{
+        .main{
+            width: 80%;
+            height: 100%;
+            margin: 0;
+        }
+    }
+}
