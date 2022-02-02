@@ -12,6 +12,7 @@
 
 .description-text .description {
   font-family: 'Open Sans', sans-serif;
+  padding: 25px 0;
 }
 
 .description-text .description h1 {
@@ -22,6 +23,7 @@
 .description-text .description p {
   color: rgba(255, 255, 255, 0.747);
   font-size: 16.5px;
+  margin-bottom: 2em;
 }
 
 .description-text .description button {
